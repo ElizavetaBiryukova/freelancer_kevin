@@ -46,13 +46,13 @@
 
                     </ul>
                     <button class="nav-button">
-                        <img src="./img/icons/nav-open.svg" alt="button">
+                        <img class="nav-button-img" src="./img/icons/nav-open.svg" alt="button">
                     </button>
                 </nav>
             </div>
             <div class="header-row">
                 <div class="header-content">
-                    <h1 class="header-heading">Kelvin Kramer<br> Designer & Developer</h1>
+                    <h1 class="header-heading">Kelvin Kramer<br> <span>Designer & Developer</span>></h1>
                     <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen
                         year
                         tenure here.
@@ -61,7 +61,10 @@
 
 
                 <div class="header-img">
-                    <img src="./img/header/hero.png" alt="Kevins photo">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero.png" alt="Kevins photo">
+                    </picture>
                 </div>
             </div>
         </div>
