@@ -5,10 +5,14 @@
 
     .nav-button {
         display: block;
-        position: fixed;
+        position: absolute;
         z-index: 9;
         top: 46px;
         right: 30px;
+    }
+
+    .nav.open .nav-button {
+        position: fixed;
     }
 
     .nav.open .nav-list {
@@ -79,7 +83,7 @@
     }
 
     .contacts {
-        padding: 60px;
+        padding: 60px 0px;
     }
 
     .contacts-title {
@@ -96,5 +100,6 @@
 
     .contacts-social {
         margin-bottom: 20px;
+        column-gap: 50px;
     }
 }
